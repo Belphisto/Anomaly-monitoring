@@ -1,0 +1,19 @@
+# HELP anomaly_model_status Статус последнего запуска модели: 1=ok, 0=error
+# TYPE anomaly_model_status gauge
+anomaly_model_status{model="dissid",node="node001"} 1
+
+# HELP anomaly_model_detected_regions_total Число найденных регионов аномалий
+# TYPE anomaly_model_detected_regions_total gauge
+anomaly_model_detected_regions_total{model="dissid",node="node001"} 3
+
+# HELP anomaly_model_detected_points_total Число аномальных точек
+# TYPE anomaly_model_detected_points_total gauge
+anomaly_model_detected_points_total{model="dissid",node="node001"} 271
+
+# HELP anomaly_model_dataset_points_total Размер итогового ряда
+# TYPE anomaly_model_dataset_points_total gauge
+anomaly_model_dataset_points_total{model="dissid",node="node001"} 13207
+
+# HELP anomaly_model_last_run_unixtime Unix time последнего запуска
+# TYPE anomaly_model_last_run_unixtime gauge
+anomaly_model_last_run_unixtime{model="dissid",node="node001"} 1777804265

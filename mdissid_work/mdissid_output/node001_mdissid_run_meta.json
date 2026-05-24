@@ -1,0 +1,15 @@
+{
+  "dataset_name": "node001_multivariate_2641_20_10_2",
+  "mode": "full_with_snn",
+  "input_file": "node001_multivariate.csv",
+  "train_length": 2641,
+  "test_length": 10566,
+  "dimensions": [
+    "cpu",
+    "voltage"
+  ],
+  "nn_type": "FCN",
+  "repo_results_dir": "F:\\Documents\\GitHub\\Anomaly-monitoring-diplom-maga\\mdissid_work\\mDiSSiD-main\\SNN_results\\node001_multivariate_2641_20_10_2",
+  "annotation_source": "F:\\Documents\\GitHub\\Anomaly-monitoring-diplom-maga\\mdissid_work\\mDiSSiD-main\\SNN_results\\node001_multivariate_2641_20_10_2\\FCN\\annotation_results.csv",
+  "anomaly_regions_count": 170
+}

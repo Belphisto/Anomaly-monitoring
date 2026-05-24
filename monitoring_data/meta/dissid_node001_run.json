@@ -1,0 +1,11 @@
+{
+  "dataset_name": "node001_sum_zscore_10565_20_10_4",
+  "mode": "preprocessor_only",
+  "source": "discord_fallback",
+  "input_file": "node001_sum_zscore.csv",
+  "train_length": 10565,
+  "test_length": 2642,
+  "anomaly_regions_count": 3,
+  "dataset_dir": "F:\\Documents\\GitHub\\Anomaly-monitoring-diplom-maga\\dissid_work\\DiSSiD-master\\datasets\\SNN_datasets\\node001_sum_zscore_10565_20_10_4",
+  "anomalous_points_count": 271
+}

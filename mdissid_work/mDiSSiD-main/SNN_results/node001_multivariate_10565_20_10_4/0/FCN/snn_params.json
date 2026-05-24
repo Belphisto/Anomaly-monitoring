@@ -1,0 +1,7 @@
+{
+    "nn_type": "FCN",
+    "epochs": 2,
+    "batch_size": 128,
+    "margin": 1.0,
+    "optimizer": "adam"
+}

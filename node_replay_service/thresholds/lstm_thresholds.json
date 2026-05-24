@@ -1,0 +1,177 @@
+{
+  "node001": {
+    "threshold": 0.18947568011283875,
+    "rows": 20320,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node002": {
+    "threshold": 0.2083983599022031,
+    "rows": 20300,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node003": {
+    "threshold": 0.19522587628662588,
+    "rows": 20323,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node004": {
+    "threshold": 0.2698887616619468,
+    "rows": 20391,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node005": {
+    "threshold": 0.3689930874109268,
+    "rows": 20358,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node006": {
+    "threshold": 0.5674763259887696,
+    "rows": 20367,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node007": {
+    "threshold": 0.4813398956134915,
+    "rows": 20353,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node008": {
+    "threshold": 0.23539176106452955,
+    "rows": 20403,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node009": {
+    "threshold": 0.25989704020321375,
+    "rows": 20403,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node011": {
+    "threshold": 0.6985278367996224,
+    "rows": 20403,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node012": {
+    "threshold": 0.5337048197686673,
+    "rows": 20344,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node013": {
+    "threshold": 0.6116142278909685,
+    "rows": 20403,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node014": {
+    "threshold": 0.6711979569643735,
+    "rows": 20395,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node015": {
+    "threshold": 0.7503569738566895,
+    "rows": 20384,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node016": {
+    "threshold": 0.5989032819271092,
+    "rows": 20282,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node017": {
+    "threshold": 0.6642973637580875,
+    "rows": 20406,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node018": {
+    "threshold": 0.6176905062943695,
+    "rows": 20374,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node019": {
+    "threshold": 0.6403542855083942,
+    "rows": 20398,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node020": {
+    "threshold": 0.36387369125336405,
+    "rows": 20399,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node021": {
+    "threshold": 0.5282885161042239,
+    "rows": 20403,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node022": {
+    "threshold": 0.7325914006680251,
+    "rows": 20358,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node023": {
+    "threshold": 0.5356364500522621,
+    "rows": 20402,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node024": {
+    "threshold": 0.5255110117793084,
+    "rows": 20355,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node025": {
+    "threshold": 0.6026806028187283,
+    "rows": 20300,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node026": {
+    "threshold": 0.6337391585111621,
+    "rows": 20305,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  }
+}

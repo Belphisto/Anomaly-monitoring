@@ -1,0 +1,18 @@
+{
+    "input_files": [
+        "mitdb_104_small_mdissid.csv"
+    ],
+    "original_ts_lengths": [
+        1600
+    ],
+    "lengths of input time series for train set": [
+        1600
+    ],
+    "n": 1600,
+    "d": 2,
+    "m": 20,
+    "l": 10,
+    "discords_fraction": 0.0008,
+    "snippets_number": 1,
+    "test_normal_set_size": 0.4
+}

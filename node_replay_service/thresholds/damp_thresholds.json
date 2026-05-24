@@ -1,0 +1,227 @@
+{
+  "node001": {
+    "threshold": 10.366269485734003,
+    "rows": 20320,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node002": {
+    "threshold": 10.437555790343295,
+    "rows": 20300,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node003": {
+    "threshold": 10.277768072280812,
+    "rows": 20323,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node004": {
+    "threshold": 10.856043865824418,
+    "rows": 20391,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node005": {
+    "threshold": 10.860241393099386,
+    "rows": 20358,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node006": {
+    "threshold": 10.296590540323546,
+    "rows": 20367,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node007": {
+    "threshold": 10.726128131942284,
+    "rows": 20353,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node008": {
+    "threshold": 11.106929205061654,
+    "rows": 20403,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node009": {
+    "threshold": 10.355655379155912,
+    "rows": 20403,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node011": {
+    "threshold": 10.82855690560217,
+    "rows": 20403,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node012": {
+    "threshold": 10.359537822044791,
+    "rows": 20344,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node013": {
+    "threshold": 10.26726510110136,
+    "rows": 20403,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node014": {
+    "threshold": 10.459681534417617,
+    "rows": 20395,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node015": {
+    "threshold": 11.46917438983609,
+    "rows": 20384,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node016": {
+    "threshold": 10.968330389321306,
+    "rows": 20282,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node017": {
+    "threshold": 9.78509336984121,
+    "rows": 20406,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node018": {
+    "threshold": 10.837398630318232,
+    "rows": 20374,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node019": {
+    "threshold": 11.084732829406343,
+    "rows": 20398,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node020": {
+    "threshold": 11.091355614768235,
+    "rows": 20399,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node021": {
+    "threshold": 11.215021690052449,
+    "rows": 20403,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node022": {
+    "threshold": 9.997127452611132,
+    "rows": 20358,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node023": {
+    "threshold": 11.700005804781513,
+    "rows": 20402,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node024": {
+    "threshold": 11.650802898534714,
+    "rows": 20355,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node025": {
+    "threshold": 11.467984215290688,
+    "rows": 20300,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  },
+  "node026": {
+    "threshold": 11.561566701742175,
+    "rows": 20305,
+    "window_size": 20,
+    "start_index": 80,
+    "calibration_fraction": 0.1,
+    "threshold_percentile": 0.995,
+    "threshold_margin": 0.05
+  }
+}

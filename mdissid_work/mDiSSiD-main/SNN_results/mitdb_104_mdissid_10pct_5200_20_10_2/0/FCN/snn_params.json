@@ -1,0 +1,8 @@
+{
+  "nn_type": "FCN",
+  "epochs": 10,
+  "batch_size": 64,
+  "margin": 1,
+  "optimizer": "adam",
+  "actual_snippets_num": 2
+}

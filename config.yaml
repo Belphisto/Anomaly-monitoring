@@ -1,0 +1,82 @@
+# Конфигурация системы обнаружения аномалий
+# Пути к файлам указываются относительно корня репозитория
+
+# Docker-инфраструктура
+docker:
+  compose_file: "docker-compose.yml"
+  project_name: "anomaly-monitoring"
+  
+  # Сервисы и их порты
+  services:
+    prometheus:
+      container_name: "anomaly-prometheus"
+      port_host: 9090
+      port_container: 9090
+      url: "http://localhost:9090"
+    
+    grafana:
+      container_name: "anomaly-grafana"
+      port_host: 3000
+      port_container: 3000
+      url: "http://localhost:3000"
+      credentials:
+        username: "admin"
+        password: "admin"
+    
+    node_exporter:
+      container_name: "anomaly-node-exporter"
+      port_host: 9100
+      port_container: 9100
+      url: "http://localhost:9100/metrics"
+
+# Настройки для моделей
+models:
+  ports:
+    damp: 8001
+    lstm: 8002
+    autoencoder: 8003
+  base_url: "http://localhost"
+  
+  # Параметры для каждой модели - ИСПРАВЛЕНО: теперь внутри models
+  params:
+    lstm:
+      seq_len: 10
+      embedding_dim: 64
+      epochs: 50
+      threshold_k: 3
+    autoencoder:
+      encoding_dim: 32
+      epochs: 50
+      threshold_k: 3
+    damp:
+      subsequence_len: 10
+      lookahead: 32
+      threshold_percentile: 95
+
+# Пути к данным
+data:
+  # CSV файл с данными (относительный путь от корня проекта)
+  csv_file: "data/Node001.csv"
+
+  # Параметры воспроизведения
+  replay:
+    speed: 100.0  # Коэффициент скорости воспроизведения (1.0 = реальное время)
+    loop: false # Зацикливать ли данные после окончания
+
+  # Метрики для анализа
+  metrics:
+    - name: "voltage"
+      key: "ipmi.value[+12V]"
+      column: "Числовое значение"
+      itemid: 61773
+      unit: "V"
+    - name: "cpu"
+      key: "system.cpu.util"
+      column: "Числовое значение"
+      itemid: 67993
+      unit: "%"
+
+# Pushgateway для отправки метрик
+pushgateway:
+  url: "http://localhost:9091"
+  job_prefix: "ml"

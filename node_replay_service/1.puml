@@ -1,0 +1,23 @@
+@startuml
+title Компоненты реализации replay-микросервиса
+
+skinparam componentStyle rectangle
+skinparam shadowing false
+
+component "Prepared node files\n(data/prepared_nodes)" as data
+component "Replay Loader" as loader
+component "Node State Manager" as state
+component "Baseline Inference Engine\n(mDiSSiD weights + snippets)" as inference
+component "Per-node Thresholds" as thresholds
+component "Prometheus Exporter" as exporter
+component "Prometheus" as prom
+component "Grafana" as graf
+
+data --> loader
+loader --> state
+state --> inference
+thresholds --> inference
+inference --> exporter
+exporter --> prom
+prom --> graf
+@enduml

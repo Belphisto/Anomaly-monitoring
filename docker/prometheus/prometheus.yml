@@ -1,0 +1,46 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'node'
+    static_configs:
+      - targets: ['node-exporter:9100']
+        labels:
+          source: 'host'
+
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'damp_replay'
+    scrape_interval: 100ms
+    static_configs:
+      - targets: ['host.docker.internal:8011']
+        labels:
+          type: 'anomaly-detector'
+          model: 'damp'
+
+  - job_name: 'mdissid_replay'
+    scrape_interval: 100ms
+    static_configs:
+      - targets: ['host.docker.internal:8010']
+        labels:
+          type: 'anomaly-detector'
+          model: 'mdissid'
+
+  - job_name: 'lstm_replay'
+    scrape_interval: 100ms
+    static_configs:
+      - targets: ['host.docker.internal:8002']
+        labels:
+          type: 'anomaly-detector'
+          model: 'lstm'
+
+  - job_name: 'ae_replay'
+    scrape_interval: 100ms
+    static_configs:
+      - targets: ['host.docker.internal:8003']
+        labels:
+          type: 'anomaly-detector'
+          model: 'ae'

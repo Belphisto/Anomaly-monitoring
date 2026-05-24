@@ -1,0 +1,21 @@
+@startuml
+title Последовательность работы replay-микросервиса
+
+participant "Prepared node file" as File
+participant "Replay Engine" as Replay
+participant "State Manager" as State
+participant "Inference Engine" as Infer
+participant "Threshold Registry" as Thr
+participant "Prometheus Exporter" as Exp
+participant "Prometheus" as Prom
+participant "Grafana" as Graf
+
+File -> Replay: чтение очередной точки узла
+Replay -> State: обновление позиции и буфера окна
+State -> Infer: передача окна CPU/voltage
+Infer -> Thr: получение per-node threshold
+Infer -> Infer: вычисление score_cpu, score_voltage,\nscore_combined
+Infer -> Exp: публикация score и anomaly_flag
+Exp -> Prom: экспорт /metrics
+Prom -> Graf: предоставление метрик для визуализации
+@enduml

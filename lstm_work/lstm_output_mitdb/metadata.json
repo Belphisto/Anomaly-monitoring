@@ -1,0 +1,20 @@
+{
+  "framework": "pytorch",
+  "model_file": "lstm_autoencoder.pt",
+  "window_size": 128,
+  "latent_dim": 8,
+  "features": [
+    "cpu",
+    "voltage"
+  ],
+  "center": [
+    -0.35499998927116394,
+    -0.25
+  ],
+  "scale": [
+    0.06671702116727829,
+    0.0667169988155365
+  ],
+  "training_node": "100",
+  "device_saved_from": "cpu"
+}
