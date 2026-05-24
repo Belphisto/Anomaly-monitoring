@@ -1,6 +1,8 @@
 # Anomaly-monitoring-diplom-maga
 Дипломный проект магистратуры
 
+mDISSID: https://github.com/KraevaYA/mDiSSiD разработка взята с репозитория и применена в текущем проекте в качестве метода обнаружения аномалий через replay-service (mDiSSiD: Discord, Snippet, and Siamese Neural Network-based Detector of multivariate anomalies). 
+
 ## Пример использования
 ### Установка зависимостей
 pip install -r requirements.txt
